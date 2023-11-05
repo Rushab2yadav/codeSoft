@@ -1,0 +1,140 @@
+body{
+    background-color: rgb( 0,0,33);
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb( 18,18,62);
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+ margin: 0 23px;
+}
+nav ul li {
+   color: white;
+}
+a :hover{
+    color: gold;
+    font-size: 1.1rem;
+}
+.left{
+    font-size: 1.6rem;
+}
+.left1{
+    
+    font-size: 3rem;
+  
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+    align-items: center;
+   
+}
+.first > div{
+    width: 30%;
+}
+.right1 img{
+    width: 80%;
+    margin: 50px 0;
+}
+#element{
+ color: lightgray;
+ font-size: small;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr {
+    border: 0px;
+    background-color: blue;
+    height: 2px;
+    margin: 60px 80px;
+}
+.secondsection h1{
+    font-size: 1.7rem;
+}
+.grey{
+    color: grey;
+}
+.box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+   
+}
+.secondsection .vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin:0 120px ;
+
+}
+.verticaltitle{
+ position: relative;
+ top: 80px;
+ font-size: 15px;
+         
+}
+.verticaltxt{
+    position: relative;
+    top: 80px;
+    color: grey;
+    font-size: 9px;
+
+}
+.imagetop{
+    height: 23px;
+    position: relative;
+    top: -33px;
+    left:-9px ;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    
+    }
+footer{
+    background-color: #0e0e1a ;
+    height: 233px;
+}
+.footersec{
+    margin-left: 3rem;
+    
+}
+.footerthird h3{
+   
+    font-size: small;
+
+}
+.footerthird{
+    align-self: end;
+}
+.footerfirst h3:hover{
+    font-style: italic;
+}
+.footersec h3:hover{
+    font-style: italic;
+}
+.footerfourth h3:hover{
+    font-style: italic;
+}
